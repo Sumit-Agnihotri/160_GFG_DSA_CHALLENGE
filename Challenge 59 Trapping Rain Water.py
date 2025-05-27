@@ -1,4 +1,4 @@
-arr = [3, 0, 1, 0, 4, 0 2]
+arr = [3, 0, 1, 0, 4, 0, 2]
 
 class Solution:
     def maxWater(self, arr):
