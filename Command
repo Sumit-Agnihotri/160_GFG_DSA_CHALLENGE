@@ -1,3 +1,6 @@
+git branch
+git fetch origin
+git pull origin main --rebase
 git add .
 git commit -m "160 challenge"
 git push origin main
