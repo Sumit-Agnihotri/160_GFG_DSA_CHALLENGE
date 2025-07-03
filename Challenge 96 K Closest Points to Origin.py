@@ -5,8 +5,8 @@ from heapq import nsmallest
 from typing import List
 
 class Solution:
-    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
+    def k_closest(self, points: List[List[int]], k: int) -> List[List[int]]:
         return nsmallest(k, points, key = lambda p: p[0] ** 2 + p[1] ** 2)
 
 s = Solution()
-print(s.kClosest(points, k))  # Output: [[0, 1], [-2, 2]]
+print(s.k_closest(points, k))  # Output: [[0, 1], [-2, 2]]
