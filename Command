@@ -1,3 +1,0 @@
-git add .
-git commit -m "160 challenge"
-git push origin main
